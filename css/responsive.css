@@ -1,0 +1,61 @@
+/* Responsive Styles
+================================================== */
+
+/* All size smaller than 1301 */
+@media only screen and (max-width: 1300px) {	
+}
+
+/* All size smaller than 1024
+================================================== */
+@media only screen and (max-width: 1023px) {
+	#primary,
+	#secondary {
+		margin-bottom: 20px;		
+	}
+	/* ----- Column ----- */
+	.two-column,
+	.three-column,
+	.four-column {
+		padding: 0  15px 20px;
+	}
+}
+
+/* All Mobile Screen ( smaller than 768px )
+================================================== */
+@media only screen and (max-width: 767px) {
+	.page-header {
+		padding: 10px 0px;
+	}
+	#content {
+		padding-top: 10px;
+	}
+	input[type="text"],
+	input[type="email"],
+	input[type="search"],
+	input[type="password"],
+	textarea,
+	input[type="reset"],
+	input[type="button"],
+	input[type="submit"] {
+		margin-bottom: 0px;
+	}
+	
+	/* ----- Column ----- */
+	.three-column {
+		padding: 0 0 0px;		
+	}
+	
+	.site-info .copyright {
+		text-align: left;
+	}
+}
+
+/* All Mobile Screen ( smaller than 481px )
+================================================== */
+@media only screen and (max-width: 480px) {	
+}
+
+/* All Mobile ( smaller than 320px )
+================================================== */
+@media only screen and (max-width: 319px) {	
+}

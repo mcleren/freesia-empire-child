@@ -1,0 +1,206 @@
+#content {
+    padding: 0px 0 50px;
+}
+.entry-content .container {
+	background: #f2f2f2;
+	border-bottom: 10px solid #fff;
+}	
+.page-header {
+	display:none;
+}
+#main {
+	border-top: 5px solid #009EE0;
+}
+#loan-type mark {
+    background-color: #009EE0;
+    color: #fff;
+    padding: 0 10px 5px;
+	display: inline-block;
+}
+
+/* 5.0 Buttons
+================================================== */
+
+.entry-content ul li:before {
+	content: "";	
+}
+
+/* ----- Default Button ----- */
+.widget_product .btn-green {
+    font-size: 24px;
+}
+.btn-green {
+	background-color: #9dcb45 !important;
+	border: 1px solid #9dcb45 !important;
+}
+.btn-green:hover {
+	background-color: #ff9b00 !important;
+	border: 1px solid #ff9b00 !important;
+}
+
+#rates-box {
+	background: #f2f2f2;
+	min-height: 411px;
+	overflow: auto;
+}
+
+/* #Tabs in content
+================================================== */
+.tabs-menu {
+	height: auto;
+}
+.tabs-menu li {
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+    border-radius: 0px;
+	padding: 0 25px;
+}
+.tab {
+	border-top: 0px;
+	background-color: initial;
+	margin: 40px 0 0 0;
+	position: relative;
+}
+.tab-content {
+	padding: 0px;
+	position: relative;
+}
+
+/* #Table in content
+================================================== */
+.home-icon {
+	font-family: 'Lfmicons';
+    font-size: 40px;
+    color: #009EE0;
+    position: absolute;
+	top: -21px;    
+    left: 75px;
+		-moz-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+		-ms-filter: "FlipH";
+}
+.home-icon:before {
+	content: '\62';    
+}
+table.rates {
+    font-size:16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+	margin-bottom: 5px;
+}
+table {
+	border-color: #009EE0;
+	border-style: solid;
+    border-width: 0px 20px 20px 20px;
+}
+.rates {
+	background-color: #fff;
+}
+.rates td, .rates th {    
+	border: 0px;
+	border-bottom: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+.rates th {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #009EE0;
+    color: white;
+}
+#loan-type, #rates-box {
+	min-height:100%;
+	overflow: visible;
+	padding: 0 20px 20px 20px;
+}
+#rates-box {
+	padding: 20px;
+}
+.two-column:nth-child(1) {
+    padding: 0;
+}
+.two-column:nth-child(2) {
+    padding: 0;
+	border-left: 10px solid #fff;	
+}
+/* Responsive Styles
+================================================== */
+
+/* All size smaller than 1301
+================================================== */
+@media only screen and (max-width: 1300px) {
+	.two-column:nth-child(2) {
+		position: relative;
+		min-height: 466px;
+		overflow: hidden; 
+	}
+	.two-column:nth-child(2) img {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+			-webkit-transform: translate(-50%,-50%);
+			-ms-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+		height: auto;
+		max-width: 768px;
+	}
+	.tabs-menu li {
+		padding: 0 14px;
+	}
+}
+
+/* All size smaller than 1024
+================================================== */
+@media only screen and (max-width: 1023px) {
+	.two-column {
+		width: 100%;
+	}
+	.two-column:nth-child(2) {
+		border-left: 0px;
+		border-top: 10px solid #fff;
+		min-height: inherit;
+	}
+	.two-column:nth-child(2) img {
+		position: inherit;
+		left: inherit;
+		top: inherit;
+			-webkit-transform: inherit;
+			-ms-transform: inherit;
+		transform: inherit;
+		height: inherit;
+		max-width: 100%;
+	}
+	.tabs-menu li {
+		padding: 0 25px;
+	}
+}
+
+/* All Mobile Screen ( smaller than 768px )
+================================================== */
+@media only screen and (max-width: 767px) {	
+	.tabs-menu li {
+		padding: 0 9px;
+	}
+	a.tooltip.hover span {
+		left: -50px;		
+	}
+	a.tooltip span:before {
+		left: 65px;		
+	}
+}
+
+/* All Mobile Screen ( smaller than 481px )
+================================================== */
+@media only screen and (max-width: 480px) {	
+	#main ul { 
+		width: 100%;
+	}	
+	table {
+		border-width: 0px;
+	}
+}

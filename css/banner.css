@@ -1,0 +1,76 @@
+/* Responsive Styles
+================================================== */
+.slider-title {
+	font-size: 50px;
+	line-height: 50px;
+	font-weight: normal;
+}
+.slider-text {
+	font-size: 45px;
+    line-height: 45px;
+	font-weight: bold;
+	color: #004578;
+	padding-left: 49px;
+}
+/* All size smaller than 1301 */
+@media only screen and (max-width: 1300px) {
+	.slider-title {
+		font-size: 45px;
+		line-height: 45px;
+	}
+	.slider-text {
+		font-size: 40px;
+		line-height: 40px;
+		padding-left: 40px;
+	}
+}
+
+/* All size smaller than 1024
+================================================== */
+@media only screen and (max-width: 1023px) {
+	.slider-title {
+		font-size: 31px;
+		line-height: 31px;
+	}
+	.slider-text {
+		font-size: 27px;
+		line-height: 27px;
+		padding-left: 27px;
+	}
+}
+
+/* All Mobile Screen ( smaller than 768px )
+================================================== */
+@media only screen and (max-width: 767px) {
+	.slider-title {
+		font-size: 25px;
+		line-height: 25px;
+	}
+	.slider-text {
+		font-size: 23px;
+		line-height: 23px;
+		padding-left: 23px;
+	}
+}
+
+/* All Mobile Screen ( smaller than 481px )
+================================================== */
+@media only screen and (max-width: 480px) {
+	.slider-text {
+		font-size: 19px;
+		line-height: 19px;
+	}
+}
+
+/* All Mobile ( smaller than 320px )
+================================================== */
+@media only screen and (max-width: 319px) {
+	.slider-title {
+		font-size: 16px;
+		line-height: 18px;
+	}
+	.slider-text {
+		font-size: 15px;
+		line-height: 17px;
+	}
+}

@@ -1,0 +1,26 @@
+/* All Mobile Screen ( smaller than 481px )
+================================================== */
+@media only screen and (max-width: 480px) {	
+	/* #Calculator
+	================================================== */
+	div#amzdiv table td:first-child, div#amzdiv table td:nth-child(5)  {
+		display: none;
+	}
+	.entry-content td {
+		padding: 2px;
+	}
+	.entry-content td:nth-child(3), .entry-content td:nth-child(4) {
+		text-align: center;
+	}
+}
+
+/* All Mobile Screen ( smaller than 301px )
+================================================== */
+@media only screen and (max-width: 300px) {	
+	.entry-content td {
+		padding: 0px;
+	}
+	div#amzdiv small {
+		font-size: 13px;
+	}
+}

@@ -1,0 +1,273 @@
+/*
+   Small Player Left
+*/
+div#small-player {
+    width: 320px;
+    height: 50px;
+    margin: 0 auto 20px auto;
+}
+div#small-player-left{
+    height: 45px;
+    width: 25px;
+    float: left;
+}
+
+/*
+    Small Player Album Art
+*/
+img#small-player-album-art{
+    width: auto;
+    height: 45px;
+    float: left;
+}
+#small-player-album-art-default {
+    float: left;
+    font-size: 30px;
+    padding: 8px 4px;
+    background-color: #009EE0;
+    border-radius: 2px;
+}
+#small-player-album-art-default.icon-earphone:before {
+    color: #fff;
+}
+
+/*
+    Small Player Middle
+*/
+div#small-player-middle{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 260px;
+    height: 30px;
+    float: left;
+    cursor: pointer;
+}
+div#small-player-middle-top{
+    width: 260px;
+    float: left;
+    height: 30px;
+	margin-bottom: 2px;
+}
+div#small-player-middle-bottom{
+    width: 260px;
+    float: left;
+	position: relative;
+}
+div#amplitude-song {
+    position: absolute;
+    top: -8px;
+    width: 100%;
+}
+
+/*
+    Small Player Middle Meta
+*/
+div#small-player-middle-controls{
+    display: none;	
+}
+div#small-player-middle-controls div {
+    float: left;
+}
+
+/*
+    Small Player Right
+*/
+div#small-player-right{
+    width: 50px;
+    float: left;
+    padding-top: 27px;
+}
+
+/*
+    Play Pause
+*/
+div.amplitude-play-pause, div.amplitude-mute, div.amplitude-volume{
+    margin: auto;
+    height: 23px;
+    width: 40px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+div.amplitude-paused:before{
+    font-family: 'Genericons';
+    font-size: 28px;
+    content: '\f452';
+    margin-right: 10px;
+	color: #666;
+}
+div.amplitude-playing:before{
+    font-family: 'Genericons';
+    font-size: 28px;
+    content: '\f448';
+    margin-right: 10px;
+	color: #666;
+}
+div.amplitude-mute:before{
+    font-family: 'lfmicons';
+    font-size: 28px;
+	content: '\6f';
+    margin-right: 10px;
+	color: #666;
+}
+div.amplitude-mute.muted:before {
+    content: '\70';
+}
+div.amplitude-volume{
+	width: 100px;
+}
+/* #amplitude-volume-slider{
+	width: 100%;
+		-webkit-appearance: none
+	border-radius: 8px;
+    height: 7px;
+    border: 1px solid #bdc3c7;
+    background-color: #fff; 
+} */
+div.amplitude-close {
+    float: right;
+	height: 0px;
+}
+div.amplitude-close:before {
+    font-family: 'Genericons';
+    font-size: 28px;
+    content: '\f405';    
+	color: #666;
+}
+
+/* Webkit */
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: #BEBEBE;
+  border-radius: 0px;
+  border: 0px solid #000000;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #BEBEBE;
+  height: 5px;
+  width: 12px;
+  border-radius: 1px;
+  background: #676261;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: 0px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #BEBEBE;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: #BEBEBE;
+  border-radius: 0px;
+  border: 0px solid #000000;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #BEBEBE;
+  height: 5px;
+  width: 12px;
+  border-radius: 1px;
+  background: #676261;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+  padding-bottom: 5px;
+}
+input[type=range]::-ms-fill-lower {
+  background: #BEBEBE;
+  border: 0px solid #000000;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px #000000;
+}
+input[type=range]::-ms-fill-upper {
+  background: #BEBEBE;
+  border: 0px solid #000000;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px #000000;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #BEBEBE;
+  height: 5px;
+  width: 12px;
+  border-radius: 1px;
+  background: #676261;
+  cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #BEBEBE;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #BEBEBE;
+}
+
+/*
+    Song Time Visualization
+*/
+div#song-time-visualization{
+    width: 260px;
+    height: 5px;
+    background-color: #bebebe;
+}
+div#song-time-visualization div.amplitude-song-time-visualization-status{
+    background-color: #676261;
+    height: 5px;
+}
+
+/*
+    Now Playing Information
+*/
+div#now-playing-title{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-size: 12px;
+    color: #676261;
+    line-height: 14px;
+}
+div.album-information{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-size: 12px;
+    color: #bebebe;
+}
+/*
+    Current song time
+*/
+span#current-time, span#duration-time{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-size: 10px;
+    color: #676261;
+}
+
+/* All Mobile Screen ( smaller than 481px )
+================================================== */
+@media only screen and (max-width: 480px) {
+	div#small-player-left, #small-player-album-art-default, div#small-player-right {
+		display: none;
+	}
+}

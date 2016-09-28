@@ -1,0 +1,560 @@
+/* 5.0 Buttons
+================================================== */
+
+/* ----- Default Button ----- */
+.widget_product .btn-orange {
+    font-size: 24px;
+	text-decoration: inherit !important;
+}
+
+/* 15.0 Header Section
+================================================== */
+/* ----- Top Header Bar ----- */
+.top-header > .container {
+	border-bottom: 0px;
+}
+
+/* 18.0 Content
+================================================== */
+#content {
+	padding: 10px 0;
+}
+
+/* 20.0 Post
+================================================== */
+/* #Entry Content
+================================================== */
+.entry-content {
+	margin: 0px 0px 10px;
+}
+
+/* 25.0 Widgets
+================================================== */
+.widget {
+	margin-bottom: 10px;
+}
+
+/* Product Widget
+================================================== */
+.widget_product .two-column, .widget_moto .two-column, .widget_moto .one-column {
+	float: left;
+	position: relative;
+	overflow: hidden;
+	text-align: left;
+}
+.widget_product .two-column .product-content, .widget_moto .two-column .moto-content, .widget_moto .one-column .moto-content {
+	z-index: 100;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	padding: 20px 20px 0;
+	position: absolute;
+	display: block;
+	top: 0;
+}
+.widget_product .two-column .product-content {
+	height: inherit;
+	width: 220px;
+	left: 50%;
+	margin-left: -110px;
+	padding: 0;
+	top: 20px;
+}
+.widget_product div div:first-child, .widget_moto .two-column:first-child {
+	padding-left: 0;
+	padding-bottom: 0;
+	padding-right: 5px;
+}
+.widget_product div div:last-child, .widget_moto .two-column:nth-child(2) {
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 5px;
+}
+.product-content h2 {
+	line-height: inherit;
+}
+.product-content .btn-default span {
+	font-size: 16px;
+	line-height: 28px;
+	margin-left: 12px;
+	padding: 6px 0 8px 16px;
+}
+
+/* Moto Widget
+================================================== */
+.widget_moto a {
+    color: #fff;
+	text-decoration: underline;
+}
+.two-image-moto {
+	min-height: 436px;
+    background-position: center center;
+    background-size: cover;
+}
+.one-image-moto {
+	min-height: 278px;
+    background-position: center center;
+    background-size: cover;
+}
+.widget_moto .two-column .moto-content, .widget_moto .one-column .moto-content {
+	text-align: justify;	
+}
+.widget_moto .one-column {
+	padding: 10px 0 0;	
+}
+.moto-content {
+	margin: 20px;
+	color: #fff;	
+}
+.moto-content h3 {
+	color: #fff;
+	font-size: 31px;
+}
+#our-mission .moto-content {
+	background-color: rgba(255, 155, 0, 0.80);
+	width: 75%;    
+	height: auto;
+}
+#our-belief .moto-content h3 {
+	text-align: right;
+}
+#our-belief .moto-content {
+	background-color: rgba(157, 203, 69, 0.80);
+	width: 60%;
+	height: auto;    
+	position: absolute;
+    right: 0;
+}
+#your-advantage .moto-content {
+	background-color: rgba(0, 158, 224, 0.80);
+	width: 55%;
+	height: auto;
+	position: absolute;
+    right: 0;
+    top: 100%;
+    height: 150px;
+    margin-top: -170px;
+}
+.home-box-icon {
+	border: 4px solid #fff;
+		-webkit-border-radius: 40px;
+		-moz-border-radius: 40px;
+    border-radius: 40px;	
+}
+#home-box-icon-plus-cont {
+    position: absolute;
+    top: 214px;
+	left: 50%;
+	z-index: 101;
+	margin-left: -27px;
+}
+#home-box-icon-equal-cont {
+    position: absolute;
+    bottom: 256px;
+	left: 50%;
+	z-index: 101;
+	margin-left: -27px;
+}
+.home-box-icon span {
+    width: 45px;
+    height: 45px;
+		-webkit-border-radius: 40px;
+		-moz-border-radius: 40px;
+    border-radius: 40px;
+    display: block;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+    font-size: 24px;
+    line-height: 45px;
+    font-family: 'Genericons';
+    background-color: #004579;
+    text-align: center;
+    color: #fff;
+		-ms-transition: all 0.3s ease-out;
+		-moz-transition: all 0.3s ease-out;
+		-webkit-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;    
+}
+#home-box-icon-plus:before {
+    content: '\f510';
+}
+.home-box-icon #home-box-icon-equal {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#home-box-icon-equal:before {
+    content: '\f448';	
+}
+
+/* Latest Blog Widget
+================================================== */
+.widget_latest_blog .blog-img {
+	display: block;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+    width: 50%;
+    float: left;
+}
+.widget_latest_blog img {
+	display: block;
+    width: 100%;
+}
+.blog-overlay a {
+	text-decoration: inherit !important;
+}
+
+/* #Main Slider
+================================================== */
+.main-slider .image-slider {
+    background-attachment: inherit;    
+    padding: 50px 0 0;
+}
+.slider-content {
+	text-align: left;
+	float: none;
+	min-height: 225px;
+	padding-left: 125px;
+}
+.slider-title span {
+	display: block;
+}
+.slider-title1 {
+	font-size: 43px;
+    padding-bottom: 10px;
+}
+.slider-title2 {
+	font-size: 78px;
+	font-weight: bold;
+	padding-left: 72px;	
+	padding-bottom: 10px;
+}
+.slider-title3 {
+	font-weight: bold;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+#slide_3 .slider-content {
+	padding-left: 64px;
+}
+#slide_3 .slider-title1 {
+	font-size: 31px;
+	line-height: 29px;
+}
+#slide_3 .slider-title2 {
+	font-size: 63px;
+	line-height: 60px;
+	padding-left: 53px;
+}
+#slide_3 .slider-title3 {
+	font-size: 42px;
+	padding-left: 30px;
+}
+.slider-content .slider-text h3 {
+    color: #009EE0;
+	text-shadow: 2px 2px 7px rgba(255, 255, 255, 0.8);
+}
+.slider-buttons {
+	left: 77px;
+}
+nav.slider-button a.active, nav.slider-button a:hover {
+    background-color: #009ee0;
+}
+.icon-earphone {
+	
+}
+
+/* #Recent Blog
+================================================== */
+.widget_latest_blog .widget-title:after, 
+.widget_latest_blog .widget-title:before {
+	height: 0px;	
+}
+
+.widget_latest_blog {
+	background: #f8f8f8;
+	text-align: left;
+	padding: 20px;
+}
+.widget_latest_blog .container {
+	background: #fff;
+	padding: 20px;
+	box-shadow: 1px 1px 5px #dbdbdb;
+	min-height:410px;
+}
+.latest-blog-sub-title {
+	text-align: left;
+}
+
+/* Responsive Styles
+================================================== */
+/* All size smaller than 1301
+================================================== */
+@media only screen and (max-width: 1300px) {
+	.slider-content {
+		padding-left: 100px;
+	}
+	#slide_3 .slider-content {
+		padding-left: 57px;
+	}
+	#our-belief .moto-content {
+		width: 70%;
+	}
+	#your-advantage .moto-content {
+		width: 67%;
+	}
+	.two-image-moto {
+		min-height: 432px;
+	}	
+	#home-box-icon-plus-cont {
+		top: 189px;
+	}
+	#slide_3 .slider-title1 {
+		font-size: 29px;
+		line-height: 29px;
+	}
+	#slide_3 .slider-title2 {
+		font-size: 57px;
+		line-height: 57px;
+	}
+	#slide_3 .slider-title3 {
+		font-size: 38px;		
+	}	
+}
+
+/* All size smaller than 1024
+================================================== */
+@media only screen and (max-width: 1023px) {
+	.slider-content {
+		padding-left: 75px;
+	}
+	#slide_3 .slider-content {
+		padding-left: 50px;
+	}
+	.slider-title1 {
+		font-size: 25px;
+		line-height: 23px;
+	}
+	.slider-title2, .slider-title3 {
+		font-size: 50px;
+		line-height: 36px;		
+	}
+	.slider-title2 {
+		padding-left: 53px;
+		padding-bottom: 8px;		
+	}
+	.slider-title3 {
+		padding-left: 25px;
+		padding-bottom: 8px;
+	}
+	#slide_2 .slider-title2 {
+		padding-left: 38px;		
+	}
+	#slide_3 .slider-title1 {
+		font-size: 26px;
+		padding-bottom: 0px;
+	}
+	#slide_3 .slider-title2 {
+		font-size: 41px;
+		line-height: 40px;
+		padding-left: 42px;
+		padding-bottom: 0px;
+	}
+	#slide_3 .slider-title3 {
+		font-size: 29px;
+		line-height: 26px;
+		padding-left: 28px;		
+	}
+	.two-image-moto {
+		min-height: 300px;
+	}
+	.one-image-moto {
+		min-height: 190px;		
+	}
+	.moto-content {
+		font-size: 15px;
+	}
+	.moto-content h3 {
+		font-size: 20px;
+	}
+	#our-mission .moto-content {
+		width: auto;
+	}
+	#our-belief .moto-content {
+		width: auto;
+		font-size: 13px;
+		line-height: 15px;
+	}	
+	#your-advantage .moto-content {
+		width: auto;		
+	}
+	#home-box-icon-plus-cont {
+		top: 123px;
+	}
+	#home-box-icon-equal-cont {
+		bottom: 168px;
+	}	
+}
+
+/* All Mobile Screen ( smaller than 768px )
+================================================== */
+@media only screen and (max-width: 767px) {	
+	.slider-content {
+		padding-left: 50px;
+	}		
+	#slide_3 .slider-content {
+		padding-left: 30px;
+	}
+	.slider-title1 {
+		font-size: 22px;
+		line-height: 18px;
+	}
+	.slider-title2, .slider-title3 {
+		font-size: 44px;
+		line-height: 33px;
+	}
+	.slider-title2 {
+		padding-left: 33px;
+		padding-bottom: 6px;		
+	}
+	.slider-title3 {
+		padding-left: 20px;
+		padding-bottom: 6px;
+	}
+	#slide_3 .slider-title1 {
+		font-size: 25px;
+		line-height: 25px;
+	}
+	#slide_3 .slider-title2 {
+		font-size: 34px;
+		line-height: 34px;
+		padding-left: 39px;
+	}
+	#slide_3 .slider-title3 {
+		font-size: 19px;
+		padding-left: 22px;
+	}	
+	.widget_product div div:first-child, #our-mission , #our-belief{
+		padding: 0 0 10px 0;
+	}
+	.widget_product div div:last-child, #your-advantage {
+		padding: 0;
+	}
+	.two-image-moto, .one-image-moto {
+		min-height: 300px;
+	}
+	.moto-content {
+		font-size: 16px;
+	}
+	.moto-content h3 {
+		font-size: 35px;
+	}
+	#our-belief .moto-content h3 {
+		text-align: inherit;
+	}
+	#our-belief .moto-content {
+		font-size: 15px;
+		line-height: 18px;
+	}
+	#your-advantage {
+	    overflow: hidden;
+	}	
+	#your-advantage img	 {
+		max-width: none;
+		left: -100%;
+		position: relative;
+	}	
+	#your-advantage .moto-content {
+		top: 0;
+		height: inherit;
+		margin-top: 20px;
+	}
+	#home-box-icon-plus-cont {
+		top: 278px;
+	}
+	#home-box-icon-equal-cont {
+		bottom: 278px;
+	}
+}
+
+/* All Mobile Screen ( smaller than 481px )
+================================================== */
+@media only screen and (max-width: 480px) {
+	.slider-content, #slide_3 .slider-content {
+		padding-left: 0px;
+	}
+	.slider-title1 {
+		font-size: 19px;
+		line-height: 16px;
+	}
+	.slider-title2, .slider-title3 {
+		font-size: 36px;
+		line-height: 25px;
+	}
+	.slider-title3 {
+		line-height: 18px;
+	}
+	.slider-title2 {
+		padding-left: 25px;
+		padding-bottom: 6px;		
+	}
+	.slider-title3 {
+		padding-left: 16px;
+		padding-bottom: 6px;
+	}
+	#slide_3 .slider-title1 {
+		font-size: 16px;
+		line-height: 18px;
+		padding-left: 0px;
+	}
+	#slide_3 .slider-title2 {
+		font-size: 26px;
+		line-height: 26px;
+		padding-left: 25px;
+		padding-bottom: 5px;
+	}
+	#slide_3 .slider-title3 {
+		font-size: 16px;
+		padding-left: 15px;
+	}	
+	.widget_moto .two-column .moto-content, .widget_moto .one-column .moto-content {
+		padding: 25px 20px;
+	}
+	.moto-content h3 {
+		font-size: 25px;
+		line-height: 20px;
+	}
+	#our-mission .moto-content, #our-belief .moto-content, #your-advantage .moto-content {
+		height: 300px;
+	}
+	.moto-content {
+		margin: 0px;
+	}
+	#your-advantage .moto-content {
+		margin-top: 0px;
+		right: inherit;
+	}
+	.form {
+		padding: 0 20px;
+	}
+	.widget_product .btn-orange {
+		font-size: 16px;
+		padding: 10px 24px;
+	}
+}
+
+/* All Mobile ( smaller than 320px )
+================================================== */
+@media only screen and (max-width: 319px) {	
+	.moto-content h3 {
+		font-size: 20px;
+		line-height: 18px;
+	}
+	#our-belief .moto-content p {
+		font-size: 14px;
+	}
+}
